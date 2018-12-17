@@ -3,11 +3,7 @@ import logging
 import click
 from contextlib import suppress
 
-from sqlalchemy import create_engine
-from sqlalchemy.orm import scoped_session, sessionmaker
-
 from gevent.pywsgi import WSGIServer
-
 
 from .app import app
 
