@@ -2,5 +2,6 @@
 
 # Setup
 ```
-$python server_entry.py
+$ sudo python setup.py clean --all install
+$ dark_proteome_visualization
 ```
