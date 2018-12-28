@@ -15,7 +15,7 @@ install:
   - pip install .
   - pip install codecov pytest pytest-cov
 
-script: python -m pytest --cov=src .
+script: python -m pytest --cov=dark_proteome_visualization .
 
 
 after_success:
