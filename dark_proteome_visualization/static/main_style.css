@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
 rect {
   fill: none;
   pointer-events: all;
@@ -26,9 +29,6 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: red;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url('https://fonts.googleapis.com/css?family=Anton');
 
 h1,h2 {
   text-align:center;

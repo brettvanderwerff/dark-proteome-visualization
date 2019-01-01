@@ -7,7 +7,6 @@ from gevent.pywsgi import WSGIServer
 
 from .app import app
 
-
 console = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 console.setFormatter(formatter)
@@ -19,6 +18,7 @@ CURRENT_DIR = os.path.abspath(os.getcwd())
 MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_PATH = os.path.join(MODULE_DIR, 'static')
 TEMPLATES_PATH = os.path.join(MODULE_DIR, 'templates')
+
 
 @click.command()
 @click.option('-d', '--debug',
