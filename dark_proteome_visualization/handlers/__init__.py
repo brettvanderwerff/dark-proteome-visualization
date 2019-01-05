@@ -1,10 +1,12 @@
 # Import all handlers here
-from . import network
-from . import raindrop
-from . import particles
-from . import copy
 from . import favicon
-from . import website
+from . import index
 from . import generic
 from . import elements
+from . import about
+from . import explore
+from . import analyze
+from . import features
+from . import copy
+
 

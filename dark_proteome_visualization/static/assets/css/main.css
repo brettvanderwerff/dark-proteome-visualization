@@ -3890,3 +3890,16 @@ input, select, textarea {
 			}
 
 		}
+
+/* D3 */
+/* Solely needed for particles!!! */
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: none;
+  stroke-width: 2.5px;
+}
+/* Solely needed for particles!!! */

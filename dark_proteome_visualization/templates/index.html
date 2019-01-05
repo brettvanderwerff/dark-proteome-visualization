@@ -18,9 +18,9 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#one">The Dark Proteome</a></li>
+							<li><a href="#two">Features of the Dark Proteome</a></li>
+							<li><a href="#three">Contact Us!</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -32,9 +32,10 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>The Dark Proteome</h1>
+                            <p>More than one third of the proteins in the human proteome are entirely disordered (<b>IDPs</b>) or contain long intrinsically disordered regions (<b>IDRs</b>).<br />
+							They cannot be characterized by the traditional methods of structural biology and therefore pose an interesting challenge. <br />
+                                This website serves as an information source for the <i>dark proteome.</i></p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -44,37 +45,37 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="{{ url_for('static', filename='images/pic01.jpg') }}" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="{{ url_for('static', filename='images/rsz_abstract-acrylic_1.jpg') }}" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
+									<h2>About the Dark Proteome</h2>
 									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
 									<ul class="actions">
-										<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+										<li><a href="{{ url_for('about') }}" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="{{ url_for('static', filename='images/pic02.jpg') }}" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="{{ url_for('static', filename='images/rsz_abstract-art-artistic_2.jpg') }}" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
+									<h2>Explore the Dark Proteome</h2>
 									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
 									<ul class="actions">
-										<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+										<li><a href="{{ url_for('explore') }}" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="{{ url_for('static', filename='images/pic03.jpg') }}" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="{{ url_for('static', filename='images/rsz_abstract-art-artistic_3.jpg') }}" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
+									<h2>Analyze the Dark Proteome</h2>
 									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
 									<ul class="actions">
-										<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+										<li><a href="{{ url_for('analyze') }}" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -84,7 +85,7 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
+							<h2>Features of the Dark Proteome</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="features">
 								<section>
@@ -119,7 +120,7 @@
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+								<li><a href="{{ url_for('features') }}" class="button">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
@@ -164,17 +165,13 @@
                                             <a href="mailto:lukas.heumos@gmail.com?Subject=Dark%20Proteome" target="_top">Send Mail</a>
 										</li>
 										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="https://twitter.com/ZethSC" class="fa-twitter"><span class="label">Twitter</span></a></li>
 												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
 												<li><a href="https://github.com/Zethson/dark-proteome-visualization" class="fa-github"><span class="label">GitHub</span></a></li>
 												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.linkedin.com/in/lukas-heumos-1538b2149/" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -200,6 +197,7 @@
 			<script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js') }}"></script>
 			<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
 			<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/d3.min.js') }}"></script>
 			<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
 			<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
 
