@@ -5,7 +5,8 @@
     <script type="text/javascript">
         var dark_proteomes = {{ dark_proteomes | safe }};
         var dark_proteins = {{ dark_proteins | safe }};
+        var my_x = "_disorder";
     </script>
-    <script src={{ url_for('static',filename='js/copy.js') }}></script>
+    <script src={{ url_for('static',filename='js/density.js') }}></script>
 {% endblock %}
 </html>
