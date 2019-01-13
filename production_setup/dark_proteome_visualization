@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name brettvan.com www.brettvan.com;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/brett/dark-proteome-visualization/dark-proteome-visualization.sock;
+    }
+}
