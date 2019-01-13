@@ -6,11 +6,11 @@
 
 2. Execute the following commands:
 ```bash
-$ adduser brett
+$ adduser zeth
 
-$ usermod -aG sudo brett
+$ usermod -aG sudo zeth
 
-$ su brett
+$ su zeth
 
 $ cd ~
 

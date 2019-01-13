@@ -22,14 +22,14 @@ pip install gunicorn
 
 python setup.py clean --all install
 
-cp /home/brett/dark-proteome-visualization/production_setup/dark_proteome_visualization.service \
+cp /home/zeth/dark-proteome-visualization/production_setup/dark_proteome_visualization.service \
 /etc/systemd/system/dark_proteome_visualization.service
 
 systemctl start dark_proteome_visualization
 
 systemctl enable dark_proteome_visualization
 
-cp /home/brett/dark-proteome-visualization/production_setup/dark_proteome_visualization \
+cp /home/zeth/dark-proteome-visualization/production_setup/dark_proteome_visualization \
 /etc/nginx/sites-available/dark_proteome_visualization
 
 ln -s /etc/nginx/sites-available/dark_proteome_visualization /etc/nginx/sites-enabled
