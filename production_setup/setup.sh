@@ -2,18 +2,7 @@
 # Reference:
 # https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04
 
-# add new user brett as sudouser
-adduser brett
-
-usermod -aG sudo brett
-
-su brett
-
-# update the apt package manager
-
 apt-get update
-
-# install pip, python3, and nginx web server
 
 apt-get install python3-pip python3-dev nginx
 
