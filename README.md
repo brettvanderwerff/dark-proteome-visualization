@@ -12,7 +12,9 @@ $ usermod -aG sudo brett
 
 $ su brett
 
+$ cd ~
+
 $ git clone https://github.com/brettvanderwerff/dark-proteome-visualization
 
-$ sudo dark-proteome-visualization/production_setup/setup.sh -Y
+$ sudo bash dark-proteome-visualization/production_setup/setup.sh
 ```
